@@ -1,0 +1,13 @@
+{
+  "name": "everyday-assistant",
+  "owner": {
+    "name": "Watcher3056"
+  },
+  "plugins": [
+    {
+      "name": "everyday-assistant",
+      "source": "./dist/claude/everyday-assistant",
+      "description": "A reusable AI skill for research, errands, documents and everyday tasks."
+    }
+  ]
+}

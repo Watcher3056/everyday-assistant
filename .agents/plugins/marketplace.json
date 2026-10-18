@@ -1,0 +1,20 @@
+{
+  "name": "everyday-assistant",
+  "interface": {
+    "displayName": "Everyday Assistant"
+  },
+  "plugins": [
+    {
+      "name": "everyday-assistant",
+      "source": {
+        "source": "local",
+        "path": "./dist/everyday-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

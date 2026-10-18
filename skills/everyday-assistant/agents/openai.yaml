@@ -1,0 +1,4 @@
+interface:
+  display_name: "Everyday Assistant"
+  short_description: "Research, shopping, errands, documents"
+  default_prompt: "Use $everyday-assistant to find and compare the best option for me, with photos and real reviews."

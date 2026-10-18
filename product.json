@@ -1,0 +1,9 @@
+{
+  "name": "everyday-assistant",
+  "displayName": "Everyday Assistant",
+  "description": "A reusable AI skill for research, errands, documents and everyday tasks.",
+  "shortDescription": "Research and everyday tasks",
+  "kind": "skill",
+  "skill": "everyday-assistant",
+  "graph": false
+}
