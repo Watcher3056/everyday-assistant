@@ -12,7 +12,19 @@ this skill's package does not bundle or require it.
 Example in Codex: `$everyday-assistant compare these options`.
 In Claude Code: `/everyday-assistant:everyday-assistant compare these options`.
 
+## Install
+
+```sh
+git clone https://github.com/Watcher3056/everyday-assistant.git
+cd everyday-assistant
+python -m pip install -r requirements-dev.txt
+python tools/build_plugin.py --install
+```
+
+For Claude Code, use `python tools/build_plugin.py --host claude --install`
+instead. Start a new client session after installation.
+
 [Build/install/update/removal and data](docs/usage.md) · [MIT](LICENSE)
 
 Private cases, personal data, research records and agent authoring instructions
-are excluded. This checkout is local preparation; nothing has been published.
+are excluded from the [public source repository](https://github.com/Watcher3056/everyday-assistant).
