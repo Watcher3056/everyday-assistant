@@ -5,7 +5,7 @@
 - Continue the most relevant existing thread. Start a new thread only if none fits.
 - Keep it minimal: only the purpose and the questions. No filler, no extra conditions, caveats or legal disclaimers the user didn't ask for. If the user has to cut lines ("drop this"), the draft was too long.
 - Emails in a language other than the user's: show the user a translation.
-- Before sending, show: recipients, sending mailbox, subject, final text, attachments, etc. Send only after an explicit "send".
+- "Write / reply to X" with the content given means send. Before sending, show one card: recipients, sending mailbox, subject, final text, attachments, with Send as the first option. Send on click. Leave it in Drafts only when the user says "draft".
 - After sending, verify it is in Sent, then report what was sent, to whom and from which account.
 
 ## Messages written as the user
